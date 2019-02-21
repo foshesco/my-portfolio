@@ -1,0 +1,48 @@
+.skills {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.skills h3 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.flexSpaceAround {
+    justify-content: space-around;
+}
+
+.col {
+    width: 30%;
+    border: 1px solid #777777;
+    border-radius: 8px;
+    background: white;
+    padding: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.col h4 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.col h5 {
+    color: rgb(25, 0, 255);
+}
+  

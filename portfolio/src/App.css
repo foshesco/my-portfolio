@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+  
+#projects {
+    height: 1200px;
+}
+  
+#aboutme {
+    height: 800px;
+}
+
+#skills {
+    height: 800px;
+}
+
+#contact {
+    height: 700px;
+}

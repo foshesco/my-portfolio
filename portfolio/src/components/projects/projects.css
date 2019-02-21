@@ -1,0 +1,46 @@
+.projects {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.projects h3 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .flexSpaceAround {
+    justify-content: space-around;
+  }
+  
+  .pic {
+    width: 30%;
+    border: 2px solid rgb(25, 0, 255);
+    border-radius: 8px;
+    background: white;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 250px;
+  }
+  
+  .work {
+    width: 60%;
+    background: white;
+    margin-left: 5px;
+    margin-right: 5px;
+  }

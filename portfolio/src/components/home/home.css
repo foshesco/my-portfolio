@@ -1,0 +1,89 @@
+.center {
+    height: 250px;
+    width: 750px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center h1 {
+    font-size: 60px;
+}
+
+.center h2 {
+    margin-bottom: -5px;
+}
+
+.words {
+    font-size: 10px;
+}
+
+.enjoy {
+    -webkit-animation: example 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: example 5s infinite;
+}
+
+.talk {
+  display: inline-block;
+  width: 200px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border: 2px solid rgb(25, 0, 255);
+  background-color: rgb(25, 0, 255);
+  padding-top: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+/* .talk:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+} */
+
+.talk span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.talk span:after {
+  content: ':)';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.talk:hover span {
+  padding-right: 25px;
+}
+
+.talk:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+  /* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {color: rgb(25, 0, 255);}
+  to {color: rgb(21, 128, 12);}
+  from {color: rgb(21, 128, 12);}
+  to {color: rgb(233, 25, 10);}
+  from {color: rgb(233, 25, 10);}
+  to {color: rgb(25, 0, 255);}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {color: rgb(25, 0, 255);}
+  to {color: rgb(21, 128, 12);}
+  from {color: rgb(21, 128, 12);}
+  to {color: rgb(233, 25, 10);}
+  from {color: rgb(233, 25, 10);}
+  to {color: rgb(25, 0, 255);}
+}
