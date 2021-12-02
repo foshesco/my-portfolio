@@ -5,7 +5,7 @@ import './footer.css';
 const Footer = () => (
     <div class="footerContainer">
         <div class="footerCopy">
-            Copyright Erik Foshager © 2019
+            Copyright EF © 2019
         </div>
         <div class="socialmedia">
             <div><SocialIcon network="instagram" url="https://instagram.com" style={{ height: 30, width: 30 }} /></div>

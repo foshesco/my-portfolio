@@ -23,22 +23,5 @@ export const projects = [
         source: 'https://github.com/foshesco/albatrossvalley',
         visit: 'https://github.com/foshesco/albatrossvalley',
         id: 1,
-    },
-    {
-        title: 'ACFT Grader',
-        description: "Building off of the ACFT Calc app, ACFT Grader is an app designed to help soldiers who grade the ACFT. This app features rules, scoring standards, and the calculator all in one.",
-        image: 'https://golfweek.usatoday.com/wp-content/uploads/sites/87/2019/10/usatsi_12533119.jpg',
-        tags: ['React', 'JavaScript'],
-        source: 'https://github.com/foshesco/acft-grader-app',
-        visit: 'https://github.com/foshesco/acft-grader-app',
-        id: 1,
-    },
-    {
-        title: 'E-Commerce',
-        description: "E-Commerce is a responsive app built using HTML, JS, and CSS.",
-        image: 'https://golfweek.usatoday.com/wp-content/uploads/sites/87/2019/10/usatsi_12533119.jpg',
-        tags: ['React', 'JavaScript'],
-        source: 'https://github.com/foshesco/my-site',
-        visit: 'https://github.com/foshesco/my-site',
-        id: 1,
-    }]
+    }
+]
