@@ -1,0 +1,52 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.mainContainer {
+    background-color: rgb(10, 6, 31);
+}
+
+.divider {
+    width: 100px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #fff;
+    background: linear-gradient(270deg, #F46737 0%, #945DD6 100%);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+@media (min-width: 800px) {
+    .secondContainer {
+        max-width: 1280px;
+        width: 100%;
+        margin: auto;
+        padding: 0 100px;
+    }    
+}
+
+@media (max-width: 800px) {
+    .secondContainer {
+        max-width: 1280px;
+        width: 100%;
+        margin: auto;
+        padding: 0 40px;
+    }    
+}
+
+@media (min-width: 800px) {
+    .socialmedia {
+        display: flex;
+        justify-content: space-around;
+      }
+      
+      .socialmedia div {
+        padding: 5px;
+      }
+}
+
+@media (max-width: 800px) {
+    .socialmedia div {
+        padding: 5px;
+    }
+}

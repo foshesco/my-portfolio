@@ -1,0 +1,126 @@
+.homeContainer {
+  width: 100%;
+  height: 800px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 800px) {
+  .homeContainerCont {
+    display: grid;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 1040px;
+    box-sizing: content-box;
+    position: relative;
+    overflow: hidden;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.homeContainerCont h1 {
+    font-size: 60px;
+}
+
+.homeContainerCont h2 {
+    margin-bottom: -5px;
+}
+}
+
+@media (max-width: 800px) {
+  .homeContainerCont {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1040px;
+    box-sizing: content-box;
+    position: relative;
+    overflow: hidden;
+    grid-template-columns: 1fr 1fr;
+    width: calc(100vw - 32px);
+}
+
+.homeAnimation {
+  display: none;
+}
+
+.homeContainerCont h1 {
+    font-size: 60px;
+}
+
+.homeContainerCont h2 {
+    margin-bottom: -5px;
+}
+}
+
+.words {
+    font-size: 10px;
+}
+
+.enjoy {
+    -webkit-animation: example 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: example 5s infinite;
+}
+
+.talk {
+  display: inline-block;
+  width: 200px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 10px;
+  background-color: #fff;
+  background: linear-gradient(270deg, #F46737 0%, #945DD6 100%);
+  padding-top: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.talk span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.talk span:after {
+  content: ':)';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.talk:hover span {
+  padding-right: 25px;
+}
+
+.talk:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+  /* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {color: rgb(25, 0, 255);}
+  to {color: rgb(21, 128, 12);}
+  from {color: rgb(21, 128, 12);}
+  to {color: rgb(233, 25, 10);}
+  from {color: rgb(233, 25, 10);}
+  to {color: rgb(25, 0, 255);}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {color: rgb(25, 0, 255);}
+  to {color: rgb(21, 128, 12);}
+  from {color: rgb(21, 128, 12);}
+  to {color: rgb(233, 25, 10);}
+  from {color: rgb(233, 25, 10);}
+  to {color: rgb(25, 0, 255);}
+}
+
+

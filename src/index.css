@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'sans-serif';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  :root {
+    --bg-color: #fff;
+    --text-color: #000;
+  }
+  
+  [data-theme="dark"] {
+    --bg-color: #3F3F3F;
+    --text-color: #fff;
+  }
+  
+  .mainContainer {
+    font-family: sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  /* Common CSS */
+  
+  .comingSoon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    overflow: hidden;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+  }
+  
+  .pageContainer {
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  .color-me {
+    color: #FFFFFF !important
+  }
+  
+  .headerContainer {
+    margin-bottom: 50px;
+  }
+  

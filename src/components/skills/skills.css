@@ -1,0 +1,39 @@
+.skillsContainer {
+    width: 100%;
+    background-size: cover;
+    background-color: rgb(10, 6, 31);
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .skillsIconContainer {
+        display: flex;
+        padding-top: 30px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 800px) {
+    .skillsIconContainer {
+        display: flex;
+        padding-top: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.skillsImg {
+    height: auto;
+    max-width: 50px;
+}
+
+.skillsIconCard {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+  
+.skillsHeader {
+    font-weight: bold;
+    font-size: 25px;
+}
