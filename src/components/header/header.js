@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom';
+import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 import './header.css';
 

@@ -26,7 +26,7 @@ const Card = ({ p, i }) => {
     return (
         <>
             <div className={isFlipped ? 'hideCard' : 'projectCard showCard'}>
-                <img className="projectImg" src={p.image} />
+                <img className="projectImg" src={p.image} alt="project-image" />
                 <h4>
                     {p.title}
                 </h4>
