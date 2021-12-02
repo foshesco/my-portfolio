@@ -24,43 +24,39 @@ const Card = ({ p, i }) => {
     }
 
     return (
-        <>
-            <div className={isFlipped ? 'hideCard' : 'projectCard showCard'}>
-                <img className="projectImg" src={p.image} alt="project-image" />
-                <h4>
-                    {p.title}
-                </h4>
-                <p>
-                    {p.description}
-                </p>
-                <b>Stack</b>
-                <div className="projectStack">
-                    {p.tags.map((t, i) => {
-                        return <span key={i}>{t}</span>;
-                    })}
+        <div className="poster-container">
+            <div className={isFlipped ? "poster flipped" : "poster"}>
+                <div className="pic">
+                    <img className="projectImg" src={p.image} alt="project-image" />
+                    <h4>
+                        {p.title}
+                    </h4>
+                    <p>
+                        {p.description}
+                    </p>
+                    <b>Stack</b>
+                    <div className="projectStack">
+                        {p.tags.map((t, i) => {
+                            return <span key={i}>{t}</span>;
+                        })}
+                    </div>
+                    <div className="projectButtons">
+                        <button onClick={(e) => {
+                            e.preventDefault();
+                            window.location.href = p.visit
+                        }}>Code</button>
+                        <button onClick={(e) => {
+                            e.preventDefault();
+                            flipCard();
+                        }}>Preview</button>
+                    </div>
                 </div>
-                <div className="projectButtons">
-                    <button onClick={(e) => {
-                        e.preventDefault();
-                        window.location.href = p.visit
-                    }}>Code</button>
-                    <button onClick={(e) => {
-                        e.preventDefault();
-                        flipCard();
-                    }}>Preview</button>
-                </div>
-            </div>
 
-            <div className={isFlipped ? 'projectCard showCard' : 'hideCard'}>
-                <img className="previewImg" src={p.previewImg} />
-                <div className="projectButtons">
-                    <button onClick={(e) => {
-                        e.preventDefault();
-                        flipCard();
-                    }}>Back</button>
+                <div onClick={() => flipCard()} className="pic back">
+                    <img className="previewImg" src={p.previewImg} />
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
