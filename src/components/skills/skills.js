@@ -14,67 +14,72 @@ const Skills = () => {
 
                 <div className="skillsIconContainer">
                     <div className="skillsIconCard">
-                        <DiReact size="40px" />
-                        <span className="skillsHeader">Front-End</span>
-                        <div>
-                            <ul>
-                                <li>
-                                    React.js
-                                </li>
-                                <li>
-                                    React Native
-                                </li>
-                                <li>
-                                    JavaScript
-                                </li>
-                                <li>
-                                    Git
-                                </li>
-                                <li>
-                                    HTML/CSS
-                                </li>
-                                <li>
-                                    Accessibility
-                                </li>
-                            </ul>
+                        <div className="skillsIconCardCont">
+                            <DiReact size="40px" />
+                            <span className="skillsHeader">Front-End</span>
+                            <div>
+                                <ul>
+                                    <li>
+                                        React.js
+                                    </li>
+                                    <li>
+                                        React Native
+                                    </li>
+                                    <li>
+                                        JavaScript
+                                    </li>
+                                    <li>
+                                        Git
+                                    </li>
+                                    <li>
+                                        HTML/CSS
+                                    </li>
+                                    <li>
+                                        Accessibility
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div className="skillsIconCard">
-                        <DiNodejsSmall size="40px" />
-                        <span className="skillsHeader">Back-End</span>
-                        <div>
-                            <ul>
-                                <li>
-                                    Node.js
-                                </li>
-                                <li>
-                                    mongoDB
-                                </li>
-                            </ul>
+                        <div className="skillsIconCardCont">
+                            <DiNodejsSmall size="40px" />
+                            <span className="skillsHeader">Back-End</span>
+                            <div>
+                                <ul>
+                                    <li>
+                                        Node.js
+                                    </li>
+                                    <li>
+                                        mongoDB
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div className="skillsIconCard">
-                        <DiVisualstudio size="40px" />
-                        <span className="skillsHeader">Data Analysis</span>
-                        <div>
-                            <ul>
-                                <li>
-                                    Abobe Analytics
-                                </li>
-                                <li>
-                                    Power BI
-                                </li>
-                                <li>
-                                    Excel
-                                </li>
-                                <li>
-                                    Microsoft Certified Data Analyst Certificate (in progress)
-                                </li>
-                            </ul>
+                        <div className="skillsIconCardCont">
+                            <DiVisualstudio size="40px" />
+                            <span className="skillsHeader">Data Analysis</span>
+                            <div>
+                                <ul>
+                                    <li>
+                                        Abobe Analytics
+                                    </li>
+                                    <li>
+                                        Power BI
+                                    </li>
+                                    <li>
+                                        Excel
+                                    </li>
+                                    <li>
+                                        Microsoft Certified Data Analyst (in progress)
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     );

@@ -10,6 +10,7 @@
         display: flex;
         padding-top: 30px;
         flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
@@ -29,8 +30,17 @@
 
 .skillsIconCard {
     display: flex;
-    flex-direction: column;
+    padding: 2px;
+    background: linear-gradient(270deg, #F46737 0%, #945DD6 100%);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.skillsIconCardCont {
+    background-color: rgb(10, 6, 31);
+    color: white;
     padding: 20px;
+    border-radius: 10px;
 }
   
 .skillsHeader {
