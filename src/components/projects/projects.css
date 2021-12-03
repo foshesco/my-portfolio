@@ -37,22 +37,24 @@
 
 .projectButtons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 20px;
 }
 
 .projectButtons button {
-  color:#d4c0c0;
   font-size: 15px;
-  padding: 5px 10px;
-  background: #6b3030;
-  border-radius: 5px;
-  transition: 0.5s;
+  width: 120px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 10px;
+  background: linear-gradient(270deg, #F46737 0%, #945DD6 100%);
+  padding: 10px 25px;
+  color: white;
   cursor: pointer;
 }
 
 .projectButtons button:hover {
-  background: #801414;
+  color: black;
 }
 
 .poster-container {

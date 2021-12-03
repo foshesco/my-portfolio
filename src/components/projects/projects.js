@@ -28,12 +28,14 @@ const Card = ({ p, i }) => {
             <div className={isFlipped ? "poster flipped" : "poster"}>
                 <div className="pic">
                     <img className="projectImg" src={p.image} alt="project-image" />
-                    <h4>
-                        {p.title}
-                    </h4>
-                    <p>
-                        {p.description}
-                    </p>
+                    <div>
+                        <h4>
+                            {p.title}
+                        </h4>
+                        <p>
+                            {p.description}
+                        </p>
+                    </div>
                     <b>Stack</b>
                     <div className="projectStack">
                         {p.tags.map((t, i) => {
