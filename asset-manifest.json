@@ -1,16 +1,23 @@
 {
-  "main.css": "/my-portfolio/static/css/main.23d5e47a.chunk.css",
-  "main.js": "/my-portfolio/static/js/main.c0d5c1ea.chunk.js",
-  "main.js.map": "/my-portfolio/static/js/main.c0d5c1ea.chunk.js.map",
-  "runtime~main.js": "/my-portfolio/static/js/runtime~main.d4d95a87.js",
-  "runtime~main.js.map": "/my-portfolio/static/js/runtime~main.d4d95a87.js.map",
-  "static/js/2.0efb80e9.chunk.js": "/my-portfolio/static/js/2.0efb80e9.chunk.js",
-  "static/js/2.0efb80e9.chunk.js.map": "/my-portfolio/static/js/2.0efb80e9.chunk.js.map",
-  "index.html": "/my-portfolio/index.html",
-  "precache-manifest.b922c1e7bb57ef83d539acdd45c1f532.js": "/my-portfolio/precache-manifest.b922c1e7bb57ef83d539acdd45c1f532.js",
-  "service-worker.js": "/my-portfolio/service-worker.js",
-  "static/css/main.23d5e47a.chunk.css.map": "/my-portfolio/static/css/main.23d5e47a.chunk.css.map",
-  "static/media/acftpreview.gif": "/my-portfolio/static/media/acftpreview.e6fd1867.gif",
-  "static/media/golf.PNG": "/my-portfolio/static/media/golf.6795a347.PNG",
-  "static/media/golfpreview.gif": "/my-portfolio/static/media/golfpreview.624becba.gif"
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.161942e3.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.7f97cc93.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.7f97cc93.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.ed460d50.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.ed460d50.js.map",
+    "static/js/2.6e258d4c.chunk.js": "/my-portfolio/static/js/2.6e258d4c.chunk.js",
+    "static/js/2.6e258d4c.chunk.js.map": "/my-portfolio/static/js/2.6e258d4c.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/css/main.161942e3.chunk.css.map": "/my-portfolio/static/css/main.161942e3.chunk.css.map",
+    "static/js/2.6e258d4c.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.6e258d4c.chunk.js.LICENSE.txt",
+    "static/media/acftpreview.57723a38.gif": "/my-portfolio/static/media/acftpreview.57723a38.gif",
+    "static/media/golf.72f4573b.PNG": "/my-portfolio/static/media/golf.72f4573b.PNG",
+    "static/media/golfpreview.ae3d9dc3.gif": "/my-portfolio/static/media/golfpreview.ae3d9dc3.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed460d50.js",
+    "static/js/2.6e258d4c.chunk.js",
+    "static/css/main.161942e3.chunk.css",
+    "static/js/main.7f97cc93.chunk.js"
+  ]
 }
