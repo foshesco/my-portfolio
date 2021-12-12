@@ -29,6 +29,9 @@ const Skills = () => {
                                         JavaScript
                                     </li>
                                     <li>
+                                        APIs
+                                    </li>
+                                    <li>
                                         Git
                                     </li>
                                     <li>

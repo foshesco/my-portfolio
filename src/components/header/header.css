@@ -18,3 +18,16 @@
 .navbar-nav li a:hover {
   color: white;
 }
+
+.nav-link {
+  color: white !important; 
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid white;
+}
+
+.home-logo {
+  padding-left: 30px;
+  font-size: 30px;
+}

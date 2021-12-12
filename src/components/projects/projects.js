@@ -8,8 +8,8 @@ const Projects = () => {
         <div className="projectContainer">
             <Title name="Projects" />
             <div className="projectCardContainer">
-                {projects.map((p, i) => (
-                    <Card p={p} i={`card-${i}`} />
+                {projects.map((a, b) => (
+                    <Card p={a} i={`card-${b}`} />
                 ))}
             </div>
         </div>
@@ -27,7 +27,7 @@ const Card = ({ p, i }) => {
         <div className="poster-container">
             <div className={isFlipped ? "poster flipped" : "poster"}>
                 <div className="pic">
-                    <img className="projectImg" src={p.image} alt="project-image" />
+                    <img className="projectImg" src={p.image} alt="project-pic-front" />
                     <div>
                         <h4>
                             {p.title}
@@ -55,7 +55,7 @@ const Card = ({ p, i }) => {
                 </div>
 
                 <div onClick={() => flipCard()} className="pic back">
-                    <img className="previewImg" src={p.previewImg} />
+                    <img className="previewImg" src={p.previewImg} alt="project-pic-back" />
                 </div>
             </div>
         </div>

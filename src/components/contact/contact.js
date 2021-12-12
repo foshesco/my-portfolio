@@ -4,24 +4,24 @@ import './contact.css'
 
 const Home = () => {
     return (
-        <div class="contactContainer">
+        <div className="contactContainer">
             <Title name="Contact" />
-            <div class="methodcontainer">
-                <div class="methods">
+            <div className="methodcontainer">
+                <div className="methods">
                     <button onClick={(e) => {
                         e.preventDefault();
                         window.location.href = 'mailto:efoshager@gmail.com';
-                    }} class="email-btn contact-btn">Send an Email
+                    }} className="email-btn contact-btn">Send an Email
                     </button>
                     <button onClick={(e) => {
                         e.preventDefault();
                         window.location.href = 'https://www.linkedin.com/in/erik-foshager-09083487';
-                    }} class="link-btn contact-btn">Connect on LinkedIn
+                    }} className="link-btn contact-btn">Connect on LinkedIn
                     </button>
                     <button onClick={(e) => {
                         e.preventDefault();
                         window.location.href = 'https://facebook.com/foshager';
-                    }} class="fb-btn contact-btn">Message on Facebook
+                    }} className="fb-btn contact-btn">Message on Facebook
                     </button>
                 </div>
             </div>
