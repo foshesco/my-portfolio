@@ -9,7 +9,7 @@ const Projects = () => {
             <Title name="Projects" />
             <div className="projectCardContainer">
                 {projects.map((a, b) => (
-                    <Card p={a} i={`card-${b}`} />
+                    <Card p={a} key={b}/>
                 ))}
             </div>
         </div>
@@ -24,7 +24,7 @@ const Card = ({ p, i }) => {
     }
 
     return (
-        <div className="poster-container">
+        <div className="poster-container" key={i}>
             <div className={isFlipped ? "poster flipped" : "poster"}>
                 <div className="pic">
                     <img className="projectImg" src={p.image} alt="project-pic-front" />

@@ -7,7 +7,7 @@ const Home = () => {
         <div className="homeContainer">
             <div className="homeContainerCont">
                 <div>
-                    <h2 class="animated">
+                    <h2 className="animated">
                         <span>Welcome</span>
                         <span>Bienvenidos</span>
                         <span>வரவேற்பு</span>
