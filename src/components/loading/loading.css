@@ -63,7 +63,7 @@
 
   .loadingText {
     position: absolute;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: rgb(10, 6, 31);
     animation: growUp 3s forwards;
     animation-delay: 2s;
