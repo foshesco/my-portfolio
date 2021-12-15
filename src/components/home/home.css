@@ -19,7 +19,7 @@
     align-items: center;
 }
 
-.homeContainerCont h1 {
+.homeContainerCont div span h2 {
     font-size: 60px;
 }
 }
@@ -41,13 +41,17 @@
   display: none;
 }
 
-.homeContainerCont h1 {
-    font-size: 60px;
+.homeContainerCont div span h2 {
+    font-size: 50px;
 }
 }
 
-.intro {
+.home-welcome {
   line-height: 30px;
+}
+
+.home-section {
+  margin-bottom: 40px;
 }
 
 .enjoy {
@@ -95,13 +99,13 @@
   right: 0;
 }
 
-.animated {
+.animated-intro {
   height: 50px;
   font-size: 50px;
   margin-bottom: 20px;
 }
 
-.animated span {
+.animated-intro span {
   color: white;
   opacity: 0;
   overflow: hidden;
@@ -111,25 +115,25 @@
   animation: topToBottom 7.5s infinite;
 }
 
-.animated span:nth-child(2){
+.animated-intro span:nth-child(2){
   -ms-animation-delay: 1.5s;
   -webkit-animation-delay: 1.5s;
   animation-delay: 1.5s;
 }
 
-.animated span:nth-child(3){
+.animated-intro span:nth-child(3){
   -ms-animation-delay: 3s;
   -webkit-animation-delay: 3s;
   animation-delay: 3s;
 }
 
-.animated span:nth-child(4){
+.animated-intro span:nth-child(4){
   -ms-animation-delay: 4.5s;
   -webkit-animation-delay: 4.5s;
   animation-delay: 4.5s;
 }
 
-.animated span:nth-child(5){
+.animated-intro span:nth-child(5){
   -ms-animation-delay: 6s;
   -webkit-animation-delay: 6s;
   animation-delay: 6s;

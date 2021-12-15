@@ -1,0 +1,100 @@
+.loadingContainer {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loadingCopy {
+    color: white;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+  
+@media (min-width: 800px) {
+    .single-chart {
+        width: 15%;
+        position: relative;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: fadeOut 0.5s ease-out forwards;
+        animation-delay: 4s;
+      }
+}
+
+@media (max-width: 800px) {
+    .single-chart {
+        width: 30%;
+        position: relative;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: fadeOut 0.5s ease-out forwards;
+        animation-delay: 4s;
+      }
+}
+
+  @keyframes fadeOut {
+      from {
+        transform:scale(1);
+      }
+      to {
+        transform:scale(0);
+      }
+  }
+  
+  .circle {
+    fill: none;
+    stroke-width: 1px;
+    stroke-linecap: round;
+    animation: progress 2s ease-out forwards;
+  }
+  
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+
+  .loadingText {
+    position: absolute;
+    margin-bottom: 10px;
+    color: rgb(10, 6, 31);
+    animation: growUp 3s forwards;
+    animation-delay: 2s;
+  }
+
+  @keyframes growUp {
+    from { 
+        transform:scale(0);
+        font-size: 60px;
+        text-anchor: middle;
+        color: white; 
+    }
+    to { 
+        transform:scale(1);
+        font-size: 60px;
+        text-anchor: middle;
+        color: white;
+    }
+}
+
+.shape {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 250px;
+  }
+  
+  .shape .gradient-bg {
+    fill: none;
+    stroke: url(#header-shape-gradient) #fff;
+  }
+  
+  #header-shape-gradient {
+    --color-stop: #F46737;
+    --color-bot: #945DD6;
+  }

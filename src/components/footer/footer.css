@@ -4,7 +4,12 @@
   background-color: rgb(10, 6, 31);
   color: white;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerCopy {
+  padding-bottom: 15px;
 }
 
 .socialmedia {

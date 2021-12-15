@@ -1,33 +1,35 @@
-.navbar-brand {
-  color: white;
-}
-
-.navbar-brand:hover {
-  color: white;
-}
-
 .bg-custom {
   background-color: rgb(10, 6, 31);
-  color: white;
 }
 
-.navbar-nav li a {
-  color: white;
+.navbar-collapse {
+  flex-grow: 0;
 }
 
-.navbar-nav li a:hover {
-  color: white;
+.navbar-fade-in {
+  position: fixed;
+  z-index: 1030;
+  width: 100%;
+  opacity: 1;
+}
+
+.navbar-fade-out {
+  position: fixed;
+  z-index: 1030;
+  width: 100%;
+  opacity: 0;
 }
 
 .nav-link {
   color: white !important; 
 }
 
-.nav-link:hover {
-  border-bottom: 1px solid white;
+@media (min-width: 800px) {
+  .nav-link:hover {
+    border-bottom: 1px solid white;
+  }
 }
 
 .home-logo {
-  padding-left: 30px;
   font-size: 30px;
 }

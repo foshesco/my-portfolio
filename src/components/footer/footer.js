@@ -5,7 +5,7 @@ import './footer.css';
 const Footer = () => (
     <div className="footerContainer">
         <div className="footerCopy">
-            &#9428; 2019
+           Designed and Built by Erik
         </div>
         <div className="socialmedia">
             <div><SocialIcon network="instagram" url="https://instagram.com/erikfoshager" style={{ height: 30, width: 30 }} /></div>
