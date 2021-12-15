@@ -6,7 +6,7 @@ const Loading = () => {
     return (
         <div className="loadingContainer">
             <div class="single-chart">
-                <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="shape">
+                <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="none" class="shape">
                     <defs>
                         <linearGradient id="header-shape-gradient" x2="0.35" y2="1">
                             <stop offset="0%" stop-color="var(--color-stop)" />
