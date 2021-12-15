@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
   height: 700px;
 }
 
@@ -88,6 +89,7 @@
     margin: 10px auto;
     max-width: 80%;
     max-height: 250px;
+    position: absolute;
   }
   
   .shape .gradient-bg {
