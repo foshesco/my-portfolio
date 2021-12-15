@@ -12,12 +12,8 @@ const Header = () => {
     function handleScroll() {
         const currPos = (window.pageYOffset / 50) * 50
         setScrollPos(currPos)
-        setShow(currPos < scrollPos ? true : false)
+        setShow(currPos <= scrollPos ? true : false)
     }
-
-    const currPos = (window.pageYOffset / 50) * 50
-
-    console.log(currPos, show)
 
     return (
         <div className="navbarcontainer">

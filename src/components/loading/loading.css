@@ -1,8 +1,9 @@
 .loadingContainer {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
 }
 
 .loadingCopy {
@@ -13,9 +14,9 @@
   
 @media (min-width: 800px) {
     .single-chart {
-        width: 15%;
+        width: 10%;
         position: relative;
-        min-height: 100vh;
+        min-height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -28,7 +29,7 @@
     .single-chart {
         width: 30%;
         position: relative;
-        min-height: 100vh;
+        min-height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
