@@ -14,6 +14,13 @@
 }
   
 @media (min-width: 800px) {
+  .loadingText {
+    color: rgb(10, 6, 31);
+    animation: growUp 3s forwards;
+    animation-delay: 2s;
+    margin-bottom: 10px;
+  }
+
     .single-chart {
         width: 10%;
         position: relative;
@@ -21,12 +28,19 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        animation: fadeOut 0.5s ease-out forwards;
-        animation-delay: 4s;
+        /* animation: fadeOut 0.5s ease-out forwards;
+        animation-delay: 4s; */
       }
 }
 
 @media (max-width: 800px) {
+  .loadingText {
+    color: rgb(10, 6, 31);
+    animation: growUp 3s forwards;
+    animation-delay: 2s;
+    margin-top: 5px;
+  }
+
     .single-chart {
         width: 30%;
         position: relative;
@@ -34,8 +48,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        animation: fadeOut 0.5s ease-out forwards;
-        animation-delay: 4s;
+        /* animation: fadeOut 0.5s ease-out forwards;
+        animation-delay: 4s; */
       }
 }
 
@@ -59,13 +73,6 @@
     0% {
       stroke-dasharray: 0 100;
     }
-  }
-
-  .loadingText {
-    position: absolute;
-    color: rgb(10, 6, 31);
-    animation: growUp 3s forwards;
-    animation-delay: 2s;
   }
 
   @keyframes growUp {
