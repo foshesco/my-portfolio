@@ -34,23 +34,6 @@ html {
     }    
 }
 
-@media (min-width: 800px) {
-    .socialmedia {
-        display: flex;
-        justify-content: space-around;
-      }
-      
-      .socialmedia div {
-        padding: 5px;
-      }
-}
-
-@media (max-width: 800px) {
-    .socialmedia div {
-        padding: 5px;
-    }
-}
-
 #home {
  min-height: 750px;   
 }
@@ -61,7 +44,7 @@ html {
  min-height: 750px;   
 }
 #contact {
- min-height: 720px;
+ min-height: 620px;
 }
 #footer {
  min-height: 100px;   

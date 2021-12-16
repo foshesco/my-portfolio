@@ -14,23 +14,25 @@
 
 .socialmedia {
   display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
 }
 
-@media (max-width: 800px) {
-  .footerCopy {
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-  }
+.socialmedia div {
+    padding: 5px;
 }
 
-@media (min-width: 800px) {
-  .footerCopy {
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-  }
+.footerCopy {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
 }
+
+.socialIcons {
+  height: 30px !important;
+  width: 30px !important;
+}
+
 
 
   

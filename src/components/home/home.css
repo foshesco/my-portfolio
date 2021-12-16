@@ -67,29 +67,26 @@
     animation: example 5s infinite;
 }
 
-.talk {
-  display: inline-block;
+.talkContainer {
   width: 200px;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  height: 50px;
   transition-duration: 0.4s;
-  border-radius: 10px;
-  background-color: #fff;
+  border-radius: 5px;
   background: linear-gradient(270deg, #F46737 0%, #945DD6 100%);
-  padding-top: 10px;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-bottom: 10px;
   color: white;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.talk span {
+.talkContainer span {
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.talk span:after {
+.talkContainer span:after {
   content: ':)';
   position: absolute;
   opacity: 0;
@@ -98,13 +95,27 @@
   transition: 0.5s;
 }
 
-.talk:hover span {
+.talkContainer:hover span {
   padding-right: 25px;
 }
 
-.talk:hover span:after {
+.talkContainer:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+.talkButton {
+  background-color: rgb(10, 6, 31);
+  border-radius: 5px;
+  height: 48px;
+  width: 198px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.talkButton:hover {
+  background-color: rgb(19, 12, 58);
 }
 
 .animated-intro {

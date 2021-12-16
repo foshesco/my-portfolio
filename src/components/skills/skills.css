@@ -31,9 +31,9 @@
 .skillsIconCard {
     display: flex;
     padding: 1px;
-    background: linear-gradient(270deg, #F46737 0%, #945DD6 100%);
+    box-shadow: 3px 3px 20px rgb(80 78 78 / 50%);
     border-radius: 10px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .skillsIconCardCont {
@@ -45,5 +45,10 @@
   
 .skillsHeader {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.skillsList {
+    padding-top: 20px;
 }

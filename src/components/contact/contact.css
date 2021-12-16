@@ -21,76 +21,36 @@
 }
 
 .methodcontainer {
-    width: 100%;
-    height: 400px;
+    height: 300px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding-bottom: 100px;
+    justify-content: space-evenly;
 }
 
-.methods button {
-    display: block;
-    margin: 50px 0;
-    height: 60px; 
-    width: 300px;
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-.fb-btn {
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    border: 2px solid  rgb(52, 78, 134);
-    background-color: rgb(59, 89, 152);
-    padding-top: 10px;
-    padding-left: 45px;
-    padding-right: 45px;
-    padding-bottom: 10px;
-    color: white;
-  }
-  
-  .fb-btn:hover {
-    color: black;
-  }
-
-  .link-btn {
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    border: 2px solid rgb(0, 105, 161);
-    background-color: #0077B5;
-    padding-top: 10px;
-    padding-left: 45px;
-    padding-right: 45px;
-    padding-bottom: 10px;
-    color: white;
-  }
-  
-  .link-btn:hover {
-    color: black;
-  }
-
-  .email-btn {
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    border: 2px solid #B23121;
-    background-color: #D44638;
-    padding-top: 10px;
-    padding-left: 45px;
-    padding-right: 45px;
-    padding-bottom: 10px;
-    color: rgb(238, 238, 238);
-  }
-  
-  .email-btn:hover {
-    color: black;
-  }
-  
-.methodcontainer .methods a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-.contact-btn {
+.contactButtonContainer {
+  width: 150px;
+  height: 50px;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+  background: linear-gradient(270deg, #F46737 0%, #945DD6 100%);
+  color: white;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contactButton {
+  background-color: rgb(10, 6, 31);
+  border-radius: 5px;
+  height: 48px;
+  width: 148px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactButton:hover {
+  background-color: rgb(19, 12, 58);
 }

@@ -9,7 +9,7 @@ const Projects = () => {
             <Title name="Projects" />
             <div className="projectCardContainer">
                 {projects.map((a, b) => (
-                    <Card p={a} key={b}/>
+                    <Card p={a} key={b} />
                 ))}
             </div>
         </div>
@@ -43,14 +43,18 @@ const Card = ({ p, i }) => {
                         })}
                     </div>
                     <div className="projectButtons">
-                        <button onClick={(e) => {
+                        <div className="projectButtonContainer" onClick={(e) => {
                             e.preventDefault();
                             window.location.href = p.visit
-                        }}>Code</button>
-                        <button onClick={(e) => {
+                        }}>
+                            <div className="projectButton">Code</div>
+                        </div>
+                        <div className="projectButtonContainer" onClick={(e) => {
                             e.preventDefault();
                             flipCard();
-                        }}>Preview</button>
+                        }}>
+                            <div className="projectButton">Preview</div>
+                        </div>
                     </div>
                 </div>
 

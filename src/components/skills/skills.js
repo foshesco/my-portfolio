@@ -1,5 +1,4 @@
 import React from 'react';
-import { DiReact, DiNodejsSmall, DiVisualstudio } from "react-icons/di";
 import Title from '../title/title';
 import './skills.css';
 
@@ -15,9 +14,9 @@ const Skills = () => {
                 <div className="skillsIconContainer">
                     <div className="skillsIconCard">
                         <div className="skillsIconCardCont">
-                            <DiReact size="40px" />
+                            <i class="fab fa-react fa-3x fa-spin"></i>
                             <span className="skillsHeader">Front-End</span>
-                            <div>
+                            <div className="skillsList">
                                 <ul>
                                     <li>
                                         React.js
@@ -46,9 +45,9 @@ const Skills = () => {
                     </div>
                     <div className="skillsIconCard">
                         <div className="skillsIconCardCont">
-                            <DiNodejsSmall size="40px" />
-                            <span className="skillsHeader">Back-End</span>
-                            <div>
+                        <i class="fab fa-node-js fa-3x"></i>
+                        <span className="skillsHeader">Back-End</span>
+                            <div className="skillsList">
                                 <ul>
                                     <li>
                                         Node.js
@@ -62,9 +61,9 @@ const Skills = () => {
                     </div>
                     <div className="skillsIconCard">
                         <div className="skillsIconCardCont">
-                            <DiVisualstudio size="40px" />
-                            <span className="skillsHeader">Data Analysis</span>
-                            <div>
+                        <i class="far fa-chart-bar fa-3x"></i>
+                        <span className="skillsHeader">Data Analysis</span>
+                            <div className="skillsList">
                                 <ul>
                                     <li>
                                         Abobe Analytics
