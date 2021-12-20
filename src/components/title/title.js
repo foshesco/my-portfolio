@@ -11,7 +11,7 @@ const Title = (props) => {
     return (
         <div className="titleContainer">
             <div className="divider" data-aos="fade-right" data-aos-once="true" />
-            <span className="title">{props.name}</span>
+            <h1 className="title">{props.name}</h1>
         </div>
     )
 };
