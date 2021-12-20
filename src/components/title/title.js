@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
 import './title.css';
 
-const Title = (props) => (
-    <div className="titleContainer">
-        <div className="divider" />
-        <span className="title">{props.name}</span>
-    </div>
-);
+const Title = (props) => {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
+
+    return (
+        <div className="titleContainer">
+            <div className="divider" data-aos="fade-right" data-aos-once="true" />
+            <span className="title">{props.name}</span>
+        </div>
+    )
+};
 
 export default Title;

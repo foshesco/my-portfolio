@@ -7,15 +7,17 @@ const Skills = () => {
         <div className="skillsContainer">
             <Title name="Technologies" />
             <div className="skillsContainerCont">
-                <div className="">
+                <div>
                     I've worked with a variety of technologies in the web development industry. These technologies range from email marketing, to front-end development, to data analysis.
                 </div>
 
                 <div className="skillsIconContainer">
                     <div className="skillsIconCard">
                         <div className="skillsIconCardCont">
-                            <i class="fab fa-react fa-3x fa-spin"></i>
-                            <span className="skillsHeader">Front-End</span>
+                            <div className="skillsHeaderContainer">
+                                <i className="fab fa-react fa-3x"></i>
+                                <span className="skillsHeader">Front-End</span>
+                            </div>
                             <div className="skillsList">
                                 <ul>
                                     <li>
@@ -45,8 +47,10 @@ const Skills = () => {
                     </div>
                     <div className="skillsIconCard">
                         <div className="skillsIconCardCont">
-                        <i class="fab fa-node-js fa-3x"></i>
-                        <span className="skillsHeader">Back-End</span>
+                            <div className="skillsHeaderContainer">
+                                <i className="fab fa-node-js fa-3x"></i>
+                                <span className="skillsHeader">Back-End</span>
+                            </div>
                             <div className="skillsList">
                                 <ul>
                                     <li>
@@ -61,8 +65,10 @@ const Skills = () => {
                     </div>
                     <div className="skillsIconCard">
                         <div className="skillsIconCardCont">
-                        <i class="far fa-chart-bar fa-3x"></i>
-                        <span className="skillsHeader">Data Analysis</span>
+                            <div className="skillsHeaderContainer">
+                                <i className="far fa-chart-bar fa-3x"></i>
+                                <span className="skillsHeader">Data Analysis</span>
+                            </div>
                             <div className="skillsList">
                                 <ul>
                                     <li>

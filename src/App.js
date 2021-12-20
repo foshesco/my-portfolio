@@ -5,6 +5,8 @@ import Projects from './components/projects/projects';
 import Skills from './components/skills/skills';
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 import './App.css';
 import Loading from './components/loading/loading';
 
@@ -13,6 +15,10 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => setLoading(false), 5000)
   })
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
 
   return (
     <div className="mainContainer">
@@ -28,13 +34,13 @@ const App = () => {
             <div id="home">
               <Home />
             </div>
-            <div id="projects">
+            <div id="projects" data-aos="fade-up" data-aos-once="true">
               <Projects />
             </div>
-            <div id="tech">
+            <div id="tech" data-aos="fade-up" data-aos-once="true">
               <Skills />
             </div>
-            <div id="contact">
+            <div id="contact" data-aos="fade-up" data-aos-once="true">
               <Contact />
             </div>
             <div id="footer">

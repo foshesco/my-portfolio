@@ -2,7 +2,7 @@ import React from 'react';
 import Title from '../title/title';
 import './contact.css'
 
-const Home = () => {
+const Contact = () => {
     return (
         <div className="contactContainer">
             <Title name="Contact" />
@@ -21,4 +21,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default Contact;

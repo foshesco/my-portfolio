@@ -34,6 +34,13 @@
     box-shadow: 3px 3px 20px rgb(80 78 78 / 50%);
     border-radius: 10px;
     margin: 20px;
+    transition: all .2s ease-in-out; 
+}
+
+.skillsIconCard:hover {
+    transform: scale(1.1);
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .skillsIconCardCont {
@@ -41,6 +48,10 @@
     color: white;
     padding: 20px;
     border-radius: 10px;
+}
+
+.skillsHeaderContainer {
+    display: flex;
 }
   
 .skillsHeader {

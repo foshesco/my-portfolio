@@ -27,7 +27,6 @@
   height: 200px;
   margin-bottom: 20px;
   align-self: center;
-
 }
 
 .projectStack {
@@ -38,7 +37,7 @@
 .projectButtons {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
 }
 
 .projectButtonContainer {
@@ -97,6 +96,9 @@
   position: absolute;
   overflow: hidden;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .poster .back {
   text-align: center;
