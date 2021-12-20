@@ -45,3 +45,45 @@
 .home-logo {
   font-size: 30px;
 }
+
+
+
+
+.headerLogoContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerCircle {
+  fill: none;
+  stroke-width: 1px;
+  stroke-linecap: round;
+  transition: all 0.2s ease-in;
+}
+
+.headerLogoContainer:hover .headerCircle{
+  stroke-width: 2px;
+}
+
+.headerShape {
+  height: 40px;
+  width: 40px;
+}
+
+.headerShape .gradient-bg {
+  fill: none;
+  stroke: url(#header-shape-gradient) #fff;
+}
+
+#header-shape-gradient {
+--color-stop: #F46737;
+--color-bot: #945DD6;
+}
+
+.headerLogoText { 
+  color: white;
+  position: absolute;
+  margin-bottom: 5px;
+}
