@@ -33,7 +33,7 @@ const Home = () => {
                         </a>
                     </div>
                 </div>
-                <div className="homeAnimation">
+                <div className="homeAnimation animated animatedFadeInUp fadeInUp-eight">
                     <BackgroundAnimation />
                 </div>
             </div>

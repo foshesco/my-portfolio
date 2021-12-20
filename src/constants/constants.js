@@ -29,9 +29,3 @@ export const projects = [
         id: 1,
     }
 ]
-
-export const WelcomeText = [
-    'hi',
-    'hello',
-    'hola',
-]

@@ -133,6 +133,13 @@ html {
     animation-delay: 1.6s;
 }
 
+.fadeInUp-eight {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-delay: 1.9s;
+}
+
   .fade-in {
     opacity: 0;
     transition: opacity 250ms ease-in;
