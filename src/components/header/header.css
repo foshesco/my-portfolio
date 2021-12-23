@@ -30,23 +30,11 @@
   .nav-link:hover {
     border-bottom: 1px solid white;
   }
-
-  .headerLogoText { 
-    color: white;
-    position: absolute;
-    padding-bottom: 5px;
-  }
 }
 
 @media (max-width: 800px) {
   .bg-custom {
     background-color: rgb(10, 6, 31);
-  }
-
-  .headerLogoText { 
-    color: white;
-    position: absolute;
-    padding-bottom: 10px;
   }
 }
 
@@ -54,6 +42,12 @@
 
 .home-logo {
   font-size: 30px;
+}
+
+.headerLogoText { 
+  color: white;
+  position: absolute;
+  padding-bottom: 5px;
 }
 
 .headerLogoContainer {

@@ -31,13 +31,13 @@ const Header = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <ul className="navbar-nav mx-auto">
-                        <li className="nav-item animated animatedFadeInUp fadeInUp-two">
+                        <li className="nav-item">
                             <a className="nav-link" href="#projects">Projects</a>
                         </li>
-                        <li className="nav-item animated animatedFadeInUp fadeInUp-three">
+                        <li className="nav-item">
                             <a className="nav-link" href="#tech">Technologies</a>
                         </li>
-                        <li className="nav-item animated animatedFadeInUp fadeInUp-four">
+                        <li className="nav-item">
                             <a className="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
