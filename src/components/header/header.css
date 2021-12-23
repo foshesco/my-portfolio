@@ -34,7 +34,7 @@
   .headerLogoText { 
     color: white;
     position: absolute;
-    margin-bottom: 5px;
+    padding-bottom: 5px;
   }
 }
 
@@ -46,7 +46,7 @@
   .headerLogoText { 
     color: white;
     position: absolute;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
   }
 }
 

@@ -27,7 +27,7 @@ const Card = ({ p, i }) => {
         <div className="poster-container" key={i}>
             <div className={isFlipped ? "poster flipped" : "poster"}>
                 <div className="pic">
-                    <img className="projectImg" src={p.image} alt={p.alt}/>
+                    <img className="projectImg" src={p.image} alt={p.alt} />
                     <div>
                         <h4>
                             {p.title}
@@ -49,6 +49,12 @@ const Card = ({ p, i }) => {
                         }}>
                             <div className="projectButton">Code</div>
                         </div>
+                        {p.site && <div className="projectButtonContainer" onClick={(e) => {
+                            e.preventDefault();
+                            window.location.href = p.site
+                        }}>
+                            <div className="projectButton">Visit</div>
+                        </div>}
                         <div className="projectButtonContainer" onClick={(e) => {
                             e.preventDefault();
                             flipCard();
