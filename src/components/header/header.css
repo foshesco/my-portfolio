@@ -30,6 +30,12 @@
   .nav-link:hover {
     border-bottom: 1px solid white;
   }
+
+  .headerLogoText { 
+    color: white;
+    position: absolute;
+    margin-bottom: 5px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -37,17 +43,18 @@
     background-color: rgb(10, 6, 31);
   }
 
-  .nav-link:hover {
-    border-bottom: 1px solid white;
+  .headerLogoText { 
+    color: white;
+    position: absolute;
+    margin-bottom: 10px;
   }
 }
+
+/* Header Logo */
 
 .home-logo {
   font-size: 30px;
 }
-
-
-
 
 .headerLogoContainer {
   position: relative;
@@ -80,10 +87,4 @@
 #header-shape-gradient {
 --color-stop: #F46737;
 --color-bot: #945DD6;
-}
-
-.headerLogoText { 
-  color: white;
-  position: absolute;
-  margin-bottom: 5px;
 }

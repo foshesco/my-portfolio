@@ -7,16 +7,12 @@
     align-items: center;
   }
 
-  .homeContainerCont {
-    display: grid;
-    flex-direction: row;
-    margin: 0 auto;
-    max-width: 1040px;
-    box-sizing: content-box;
-    position: relative;
-    overflow: hidden;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+.homeAnimation {
+  position: absolute;
+  top: 21%;
+  left: 50%;
+  right: 0;
+  bottom: 0;
 }
 
 .homeContainerCont div span h2 {
@@ -116,4 +112,44 @@
 
 .talkButton:hover {
   background-color: rgb(19, 12, 58);
+}
+
+.animated-intro span {
+  color: white;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  -ms-animation: topToBottom 7.5s infinite;
+  -webkit-animation: topToBottom 7.5s infinite;
+  animation: topToBottom 7.5s infinite;
+}
+
+.animated-intro span:nth-child(2){
+  -ms-animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
+.animated-intro span:nth-child(3){
+  -ms-animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+.animated-intro span:nth-child(4){
+  -ms-animation-delay: 4.5s;
+  -webkit-animation-delay: 4.5s;
+  animation-delay: 4.5s;
+}
+
+.animated-intro span:nth-child(5){
+  -ms-animation-delay: 6s;
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+
+@keyframes topToBottom {
+  0%, 20% {opacity: 1} /* visible for 1s */
+  20.01%, 100% {opacity: 0} /* hidden for 4s */
 }
