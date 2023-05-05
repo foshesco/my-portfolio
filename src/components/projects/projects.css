@@ -30,8 +30,13 @@
 }
 
 .projectStack {
-  display: flex;
-  justify-content: space-around;
+  text-align: center;
+  /* display: flex;
+  justify-content: space-around; */
+}
+
+.projectStack span {
+  padding: 0 10px
 }
 
 .projectButtons {
@@ -68,12 +73,13 @@
 }
 
 .poster-container {
-	min-width: 350px;
-	min-height: 550px;
+	min-width: 375px;
+	min-height: 600px;
 	border-radius: 15px;
   perspective: 600;
   position: relative;
   margin-bottom: 50px;
+  padding: 10px
 }
 
 .poster {

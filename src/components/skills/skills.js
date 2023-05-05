@@ -21,7 +21,7 @@ const Skills = () => {
                             <div className="skillsList">
                                 <ul>
                                     <li>
-                                        React.js
+                                        React
                                     </li>
                                     <li>
                                         React Native
@@ -54,10 +54,13 @@ const Skills = () => {
                             <div className="skillsList">
                                 <ul>
                                     <li>
-                                        Node.js
+                                        Node
                                     </li>
                                     <li>
-                                        mongoDB
+                                        Express
+                                    </li>
+                                    <li>
+                                        MongoDB
                                     </li>
                                 </ul>
                             </div>

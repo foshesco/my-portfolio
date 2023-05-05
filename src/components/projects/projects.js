@@ -36,7 +36,7 @@ const Card = ({ p, i }) => {
                             {p.description}
                         </p>
                     </div>
-                    <b>Stack</b>
+                    <div className='projectStack'><u>Stack</u></div>
                     <div className="projectStack">
                         {p.tags.map((t, i) => {
                             return <span key={i}>{t}</span>;
