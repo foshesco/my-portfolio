@@ -11,7 +11,7 @@ import './App.css';
 import Loading from './components/loading/loading';
 
 const App = () => {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   useEffect(() => {
     setTimeout(() => setLoading(false), 5000)
   })
