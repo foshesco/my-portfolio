@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.32acd6bb.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.907a65e9.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.907a65e9.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.7643078a.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.ce4b931e.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.ce4b931e.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.ed460d50.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.ed460d50.js.map",
-    "static/css/2.7fc9bc2b.chunk.css": "/my-portfolio/static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.6c45241e.chunk.js": "/my-portfolio/static/js/2.6c45241e.chunk.js",
-    "static/js/2.6c45241e.chunk.js.map": "/my-portfolio/static/js/2.6c45241e.chunk.js.map",
+    "static/css/2.ec02d681.chunk.css": "/my-portfolio/static/css/2.ec02d681.chunk.css",
+    "static/js/2.7205cbc7.chunk.js": "/my-portfolio/static/js/2.7205cbc7.chunk.js",
+    "static/js/2.7205cbc7.chunk.js.map": "/my-portfolio/static/js/2.7205cbc7.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "static/css/2.7fc9bc2b.chunk.css.map": "/my-portfolio/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.32acd6bb.chunk.css.map": "/my-portfolio/static/css/main.32acd6bb.chunk.css.map",
-    "static/js/2.6c45241e.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.6c45241e.chunk.js.LICENSE.txt",
+    "static/css/2.ec02d681.chunk.css.map": "/my-portfolio/static/css/2.ec02d681.chunk.css.map",
+    "static/css/main.7643078a.chunk.css.map": "/my-portfolio/static/css/main.7643078a.chunk.css.map",
+    "static/js/2.7205cbc7.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.7205cbc7.chunk.js.LICENSE.txt",
     "static/media/acftpreview.57723a38.gif": "/my-portfolio/static/media/acftpreview.57723a38.gif",
     "static/media/eaglize.73482fc8.png": "/my-portfolio/static/media/eaglize.73482fc8.png",
     "static/media/eaglizepreview.cb1e5313.gif": "/my-portfolio/static/media/eaglizepreview.cb1e5313.gif",
@@ -22,9 +22,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ed460d50.js",
-    "static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.6c45241e.chunk.js",
-    "static/css/main.32acd6bb.chunk.css",
-    "static/js/main.907a65e9.chunk.js"
+    "static/css/2.ec02d681.chunk.css",
+    "static/js/2.7205cbc7.chunk.js",
+    "static/css/main.7643078a.chunk.css",
+    "static/js/main.ce4b931e.chunk.js"
   ]
 }
